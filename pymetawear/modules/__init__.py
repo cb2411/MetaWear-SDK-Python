@@ -24,7 +24,8 @@ from .led import LEDModule
 from .magnetometer import MagnetometerModule
 from .switch import SwitchModule
 from .temperature import TemperatureModule
-from .sensorfusion import SensorFusionModule
+# from .sensorfusion import SensorFusionModule
+from .sensorfusion2 import SensorFusionModule
 
 __all__ = [
     "PyMetaWearModule", "Modules",

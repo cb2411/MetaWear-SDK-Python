@@ -19,8 +19,8 @@ import time
 from pymetawear.discover import select_device
 from pymetawear.client import MetaWearClient
 
-address = select_device()
-c = MetaWearClient(str(address), 'pygatt', debug=True)
+address = 'CA:64:F9:BF:BF:A9' # select_device()
+c = MetaWearClient(str(address), 'pygatt', debug=False)
 print("New client created: {0}".format(c))
 
 
